@@ -503,13 +503,6 @@ background-size: 100%;
 }
 
 
-/* .fa-layer-group,
-.fa-users {
-    font-size: 14rem;
-} */
-
-
-
 
 /* mobile responesive */
 @media screen and (max-width: 1100px) {
@@ -644,6 +637,7 @@ background-size: 100%;
     margin: 0 auto;
     z-index: 1;
     width: 100%;
+    
 }
 
 .main__content {
@@ -679,6 +673,11 @@ background-size: 100%;
     flex-direction: column;
     justify-content: center;
     color: #fff;
+    
+}
+
+#official__card-3 {
+    margin-left: 60px;
 }
 
 .main__img--container2 h1 {
@@ -691,8 +690,9 @@ background-size: 100%;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     margin: 0 auto;
+    max-width: 450px;
     
 }
 
@@ -704,10 +704,12 @@ background-size: 100%;
 .main__img--container2 h2 {
     font-weight: bold;
     font-size: 20px;
-    color: #000000;
+    color: #2b307c;
     display: flex;
     flex-wrap: wrap;
     padding-top: 1.2rem;
+    margin: 0 auto;
+    max-width: 450px;
 }
 
 
@@ -817,23 +819,7 @@ background-size: 100%;
 
 }
 
-.services__card::before,
-.services__card::after {
-    content: "";
-    position: absolute;
-    inset: -.3rem;
-    z-index: -1;
-    background-image: conic-gradient( from
-        var(--gradient-angle), 
-        var(--clr-3),
-        var(--clr-4),
-        var(--clr-5),
-        var(--clr-4),
-        var(--clr-3)
-    );
-    border-radius: inherit;
-    animation: glow 8s linear infinite;
-}
+
 
 .services__card::after {
     filter: blur(3.5rem);
