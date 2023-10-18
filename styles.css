@@ -296,7 +296,7 @@ background-size: 100%;
 }
 
 .main__content  h1 {
-    font-size: 2rem;
+    font-size: 3.4rem;
     background-color: #fe3b6f;
     background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
     background-size: 100%;
@@ -309,7 +309,7 @@ background-size: 100%;
 }
 
 .main__content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     background: #ff8177;  
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, 
@@ -325,6 +325,7 @@ background-size: 100%;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
+    max-width: 750px;
 
 }
 
@@ -383,12 +384,14 @@ background-size: 100%;
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
+    max-width: 750px;
 }
 
 .main__content p2 {
     margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 700;
+    /* max-width: 450px; */
 }
 
 
@@ -677,11 +680,12 @@ background-size: 100%;
 }
 
 #official__card-3 {
-    margin-left: 60px;
+    /* margin-left: 60px; */
+    margin-top: 2rem;
 }
 
 .main__img--container2 h1 {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     background-color: #fe3b6f;
     background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
     background-size: 100%;
@@ -692,7 +696,7 @@ background-size: 100%;
     text-transform: uppercase;
     /* margin-bottom: 32px; */
     margin: 0 auto;
-    max-width: 450px;
+    /* max-width: 450px; */
     
 }
 
@@ -709,7 +713,7 @@ background-size: 100%;
     flex-wrap: wrap;
     padding-top: 1.2rem;
     margin: 0 auto;
-    max-width: 450px;
+    /* max-width: 450px; */
 }
 
 
@@ -1049,6 +1053,15 @@ section {
     font-size: 1.4rem;
 }
 
+.answer a {
+    color: #4d0efc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
 .answer ul {
     color: #fff;
     padding-top: 1rem;
@@ -1260,6 +1273,21 @@ svg {
     
 }
 
+.book {
+    position: fixed;
+    bottom: 13%;
+    left: 12%;
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 2;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
 .ticket h4 {
     position: fixed;
     bottom: 13%;
@@ -1270,8 +1298,10 @@ svg {
     padding: 1rem;
     margin: auto;
     text-align: center;
+    text-decoration: none;
     
 }
+
 
 .ticket ul {
     margin-top: 24px;
@@ -1371,6 +1401,16 @@ svg {
 
 .ticket button:hover {
     cursor: pointer;
+}
+
+.card__icon--link   {
+    color: #FFf;
+    font-size: 1.8rem;
+    text-decoration: none;
+    bottom: 5%;
+    left: 5%;
+    position: fixed;
+   
 }
 
 /* enterprise section */
@@ -1673,7 +1713,7 @@ h3 {
     font-size: 3rem;
 }
 
-.free__section button {
+.gift__btn {
     justify-content: center;
     align-items: center;
     display: flex;
